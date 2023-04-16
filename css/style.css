@@ -1,0 +1,155 @@
+* {
+     box-sizing: border-box;
+     font-family: 'noto serif', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+section{
+     height: 500px;
+     background-color: white;
+     border: solid black 1px;
+   
+}
+
+#FLogo{
+     height: 300px;
+     display: flex;
+     
+}
+
+.hero {
+     background-color: #faeded;
+     height: 100vh;
+     color:rgb(62, 58, 34);
+     font-size: 40px;
+}
+
+footer{
+     height: 150px;
+     background-color: rgb(93, 82, 82);
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     background-color: black;
+     height: 120px;
+}
+
+ul{
+     display: flex;
+     list-style: none;
+     font-size: 30px;
+}
+
+li{
+     width: 200px;
+     color:rgb(227, 217, 159);
+}
+
+.jobTitle{
+     margin-left: 80px;
+     margin-bottom: 200px;
+}
+
+.jobTitle2{
+     display: flex;
+     justify-content: space-between;
+     height: 100%;
+     align-items: center;
+}
+
+h1{
+     margin: 0;
+     font-weight: 700;
+}
+
+p{
+     margin: 0;
+     
+}
+
+.button{
+     width: 200px;
+     height: 50px;
+     background-color: rgb(13, 25, 35);
+     text-align: center;
+     border-radius: 300px;
+     font-size: 30px;
+     padding-top: 5px;
+     margin-top: 20px
+}
+
+/* change hover color */
+.button:hover{
+     background-color: rgb(63, 52, 48);
+     color: white;
+}
+/* change color */
+.button:active{
+     background-color: gray;
+     color: white;
+}
+
+#logo{
+     height: 120px;
+     margin-top: 9px;
+}
+
+/* fill in html to change color */
+.socials{
+     margin-right: 40px;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.social{
+     margin: 20px;
+
+}
+
+
+.aboutme{
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+}
+
+.info{
+     width: 50%;
+}
+
+h2{
+     font-size: 50px;
+     color:#3f1b3e ;
+}
+
+#locationpng{
+     height: 20px;
+     width: 20px;
+}
+
+#headshot{
+     height: 70%;
+     border-radius: 150px;
+}
+
+.headshotphoto{
+     width: 50%;
+     display: flex;
+     align-items: center;
+}
+
